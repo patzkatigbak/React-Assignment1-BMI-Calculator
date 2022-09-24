@@ -1,3 +1,10 @@
+/*
+Program ID: BMI Calculator (Assignment 1)
+Author: Patrick
+Description: BMI calculator which user can select which measurement System to be used (Metric or Imperial)
+             Result will be displated on a textLabel
+*/
+
 
 import React, { useState } from "react";
 import { StyleSheet, Text, View , TextInput,Button,Switch} from 'react-native';
@@ -20,7 +27,7 @@ export default function App() {
 
 
   //This will be triggered when toggle switch is switched on/off 
-  //ON - Metric | OFF - IMPERIAL
+  //OFF - Metric | ON - IMPERIAL
   const toggleSwitch = () => 
   {
       let setup = textMetric
